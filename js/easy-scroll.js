@@ -16,7 +16,7 @@ var section = document.querySelector('.header-s1');
 var sectionAbout = document.querySelector('.s1');
 var sectionWorks = document.querySelector('.s2');
 var sectionTeam = document.querySelector('.s3');
-var sectionContact = document.querySelector('.footer');
+var sectionContact = document.querySelector('.s4');
 
 button.addEventListener('click', () => {
 	scrollTo(section);

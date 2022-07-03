@@ -4,6 +4,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/adaptive.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet'/>
@@ -13,7 +14,7 @@
 
 <body>
     
-    /* ГЛАВНАЯ */
+    <!-- ГЛАВНАЯ -->
     
         <header class="header">
 		<div class="header__wrapper">
@@ -35,7 +36,7 @@
 				</div>
 				<div class="header__center">
 					<p class="header__slogan">
-                        Здесь вы найдёте качество
+                        Здесь Вы найдёте качество.
                     </p>
 				</div>
 				<div class="header__bottom">
@@ -47,20 +48,23 @@
 		</div>
 	</header>
     
+
         <!--Обо мне-->
+    	<div class="transition header-s1"></div>
     <section class="s1">
 		<div class="container">
 			<div class="section__headline1">
 				Обо мне
 			</div>
+            <div class="maintext1">
             <div class="my_photo">
-                <img src="img/AboutUs/me.png"  align="left" width="28%" height="28%" alt="Артем Госман">
+                <img src="img/AboutUs/me.png"  align="left" width="20%" height="20%" alt="Артем Госман">
             </div>
 			<div class="section__text1">
 				Приветствую! Меня зовут Артём, мне 22 года, и я обожаю создавать качественный контент. Профессионально занимаюсь съёмкой, монтажом, 2D и 3D графикой уже больше шести лет!
 			</div>
             <div class="section__text2">
-				За спиной опыт работы с популярными блоггерами на YouTube, клипы, репортажи, фуд видео, реклама, короткометражные фильмы, съемка в студии и на хромакее с последующим наложением эффектов, интервью, курсы, бизнес видео и многие другие проекты!
+				За спиной опыт работы в самых разных условиях, с разными клиентами и бюджетами: популярные YouTube блоггеры, клипы, репортажи, фуд видео, реклама, короткометражные фильмы, съемка в студии и на хромакее с последующим наложением эффектов, интервью, курсы, бизнес видео и многие другие проекты!
 			</div>
             <div class="section__text3">
 			Что я могу Вам предложить? Вы озвучите мне свою идею, а я воплощу её в жизнь:
@@ -106,6 +110,7 @@
 				</div> 
             </div>
 		</div>
+            </div>
 	</section>
 
     
@@ -173,13 +178,13 @@
 				</div>
 				<div class="s2__works-item">
 					<div class="s2__vid">
-						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7OrlxhAY4mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/bjfqQUgsyNs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<h3 class="s2__title">
-						youtube мария соколова
+						youtube lesh
 					</h3>
 					<p class="s2__subtitle">
-						Видеоролик с Виктором Блудом.
+						Видеоролик про дизайн интерьера
 					</p>
 				</div>
 				<div class="s2__works-item">
@@ -229,126 +234,7 @@
 			</div>
 		</div>
 	</section>
-    
-    <!--Отзывы-->
-    <!--
-    <section class="s3">
-        <div class="container">
-        <div class="s3_testimonials">
-      <div class="s3__headline">
-                Отзывы реальных клиентов
-            </div>
-<div class="s3_row">
- <div class="s3_col">
-            <div class="s3_testimonial">
-              <img src="img/avatar.png" alt="">
-              <div class="s3_name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Виталий</font></font></div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-
-              <p class="s3_text">
-               Работа по созданию видеоролика проделана очень качественно и с душой! В процессе помимо монтажа приходилось работать с 3D моделью. Сотрудничать с Артёмом легко и плодотворно. Рекомендую
-                </p>
-            </div>
-          </div>
-
-          <div class="s3_col">
-            <div class="s3_testimonial">
-              <img src="img/avatar.png" alt="">
-              <div class="s3_name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Тимофей</font></font></div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-
-                <p class="s3_text">
-               Гений видеомонтажа, всё чётко и довольно-таки быстро :)
-                </p>
-            </div>
-          </div>
-
-          <div class="s3_col">
-            <div class="s3_testimonial">
-              <img src="img/avatar.png" alt="">
-              <div class="s3_name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ангелина</font></font></div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <p class="s3_text">
-               Мастер расставил грамотно свет, настроил звук, мы получили отличную картинку для нашего курса. Смонтировал очень быстро, качественно!
-                </p>
-            </div>
-          </div>
-
-          <div class="s3_col">
-            <div class="s3_testimonial">
-              <img src="img/avatar.png" alt="">
-              <div class="s3_name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Владислав</font></font></div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-
-              <p class="s3_text">
-                Всё отлично, Артём приехал вовремя, обо всём договорились заранее, услугу оказал в полном размере. Советую обращаться и делать качественный контент &#129304; &#128293;
-                </p>
-            </div>
-          </div>
-             <div class="s3_col">
-            <div class="s3_testimonial">
-              <img src="img/avatar.png" alt="">
-              <div class="s3_name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Анар</font></font></div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-
-              <p class="s3_text">
-                 Всё чётко!
-                </p>
-            </div>
-          </div>
-            <div class="s3_col">
-            <div class="s3_testimonial">
-              <img src="img/avatar.png" alt="">
-                  <div class="s3_name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Мария</font></font></div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-
-              <p class="s3_text">
-           Работа понравилась!
-                </p>
-            </div>
-          </div>
-            </div>
-                </div>
-            </div>
-    </section>
-    -->
-    
+   
     
    <section class="s3">
         <div class="container">
@@ -468,13 +354,13 @@
     <section class="s4">
         <div class="container">
             <div class="s4__headline">
-                Оставить заявку
+                Заказать видео
             </div>
             <div class="form">
             <form action="sender.php" method="post">
             <input type="text" class="name" name="name" placeholder="Имя">
             <input type="text" class="phone" name="phone" placeholder="Телефон" required>
-            <textarea name="text" id="" cols="30" rows="10" placeholder="Опишите задачу" required></textarea>
+            <textarea name="text" id="" cols="30" rows="10" placeholder="Подробно опишите Ваш проект" required></textarea>
             <button type="button" class="send-form">Оставить заявку</button>
             <div class="status">
         </div>
@@ -488,12 +374,27 @@
 			Я в соцсетях:
 			</div>
 <ul class="social-icons-4">
-    <li><a href="#"><i class="fab fa-vk"></i></a></li>
-    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
-    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="https://vk.com/mr.cool_id"  target="_blank"><i class="fab fa-vk"></i></a></li>
+    <li><a href="https://t.me/yt_Tomahawk"  target="_blank"><i class="fab fa-telegram"></i></a></li>
+    <li><a href="https://instagram.com/yt_tomahawk"  target="_blank"><i class="fab fa-instagram"></i></a></li>
 </ul>
             
         </section>
+        
+        
+         <section class="footer-section-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 footer-bottom-left">
+                    <p>© All Rights Reserved</p>
+                </div>
+                <div class="col-md-6 footer-bottom-right">
+                   <p>Госман А.В.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
         
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
@@ -503,4 +404,6 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
     
+       
+        
 </body>
